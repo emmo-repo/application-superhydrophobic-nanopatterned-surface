@@ -10,37 +10,37 @@
 @base <https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#> .
 
 <https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface> rdf:type owl:Ontology ;
-                                          owl:versionIRI <https://w3id.org/emmo/application/0.1.0/superhydrophobic-nanopatterned-surface> ;
-                                          owl:imports <https://w3id.org/emmo/domain/characterisation-methodology/1.0.0-beta5/chameo> ;
-                                          <http://purl.org/dc/terms/abstract> "Application ontology for Superhydrophobic Nanopatterned Surfaces testing developed within the NanoMECommons project."@en ;
-                                          <http://purl.org/dc/terms/alternative> "Suhy" ;
-                                          <http://purl.org/dc/terms/bibliographicCitation> "Work under review - not available yet" ;
-                                          <http://purl.org/dc/terms/contributor> "Goldbeck Consulting Ltd (UK)" ;
-                                          <http://purl.org/dc/terms/created> "2024-11-12" ;
-                                          <http://purl.org/dc/terms/creator> "Gerhard Goldbeck" ,
-                                                                             "Pierluigi Del Nostro" ;
-                                          <http://purl.org/dc/terms/description> "Superhydrophobic Nanopatterned Surfaces testing ontology"@en ;
-                                          <http://purl.org/dc/terms/hasFormat> <https://www.w3.org/TR/turtle/> ;
-                                          <http://purl.org/dc/terms/identifier> "https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface" ;
-                                          <http://purl.org/dc/terms/issued> "" ;
-                                          <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/legalcode" ;
-                                          <http://purl.org/dc/terms/modified> "2023-10-23T15:00:00Z" ;
-                                          <http://purl.org/dc/terms/publisher> "EMMC ASBL" ;
-                                          <http://purl.org/dc/terms/source> "" ;
-                                          <http://purl.org/dc/terms/title> "Superhydrophobic Nanopatterned Surfaces testing ontology"@en ;
-                                          <http://purl.org/ontology/bibo/doi> "" ;
-                                          <http://purl.org/vocab/vann/preferredNamespacePrefix> "suhy"@en ;
-                                          <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface" ;
-                                          rdfs:comment """Contacts:
+                                                                            owl:versionIRI <https://w3id.org/emmo/application/0.1.0/superhydrophobic-nanopatterned-surface> ;
+                                                                            owl:imports <https://w3id.org/emmo/domain/characterisation-methodology/1.0.0-beta5/chameo> ;
+                                                                            <http://purl.org/dc/terms/abstract> "Application ontology for Superhydrophobic Nanopatterned Surfaces testing developed within the NanoMECommons project."@en ;
+                                                                            <http://purl.org/dc/terms/alternative> "Suhy" ;
+                                                                            <http://purl.org/dc/terms/bibliographicCitation> "Work under review - not available yet" ;
+                                                                            <http://purl.org/dc/terms/contributor> "Goldbeck Consulting Ltd (UK)" ;
+                                                                            <http://purl.org/dc/terms/created> "2024-11-12" ;
+                                                                            <http://purl.org/dc/terms/creator> "Gerhard Goldbeck" ,
+                                                                                                               "Pierluigi Del Nostro" ;
+                                                                            <http://purl.org/dc/terms/description> "Superhydrophobic Nanopatterned Surfaces testing ontology"@en ;
+                                                                            <http://purl.org/dc/terms/hasFormat> <https://www.w3.org/TR/turtle/> ;
+                                                                            <http://purl.org/dc/terms/identifier> "https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface" ;
+                                                                            <http://purl.org/dc/terms/issued> "" ;
+                                                                            <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/legalcode" ;
+                                                                            <http://purl.org/dc/terms/modified> "2023-10-23T15:00:00Z" ;
+                                                                            <http://purl.org/dc/terms/publisher> "EMMC ASBL" ;
+                                                                            <http://purl.org/dc/terms/source> "" ;
+                                                                            <http://purl.org/dc/terms/title> "Superhydrophobic Nanopatterned Surfaces testing ontology"@en ;
+                                                                            <http://purl.org/ontology/bibo/doi> "" ;
+                                                                            <http://purl.org/vocab/vann/preferredNamespacePrefix> "suhy"@en ;
+                                                                            <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface" ;
+                                                                            rdfs:comment """Contacts:
 													Gerhard Goldbeck
 													Goldbeck Consulting Ltd (UK)
 													email: gerhard@goldbeck-consulting.com"""@en ;
-                                          owl:backwardCompatibleWith "" ;
-                                          owl:priorVersion "" ;
-                                          owl:versionInfo "0.1.0" ;
-                                          skos:hiddenLabel "Suhy" ;
-                                          <http://xmlns.com/foaf/0.1/homepage> <https://github.com/emmo-repo/application-superhydrophobic> ;
-                                          <http://xmlns.com/foaf/0.1/page> <https://github.com/emmo-repo/application-superhydrophobic> .
+                                                                            owl:backwardCompatibleWith "" ;
+                                                                            owl:priorVersion "" ;
+                                                                            owl:versionInfo "0.1.0" ;
+                                                                            skos:hiddenLabel "Suhy" ;
+                                                                            <http://xmlns.com/foaf/0.1/homepage> <https://github.com/emmo-repo/application-superhydrophobic> ;
+                                                                            <http://xmlns.com/foaf/0.1/page> <https://github.com/emmo-repo/application-superhydrophobic> .
 
 #################################################################
 #    Annotation properties
@@ -329,6 +329,7 @@ chameo:UserCase rdf:type owl:Class .
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMountingOnHolder1
 :suhyMountingOnHolder1 rdf:type owl:NamedIndividual ,
                                 chameo:Mounting ;
+                       emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d :suhySEM1 ;
                        chameo:hasCharacterisationEnvironment :suhyCharacterisationEnvironment1 ;
                        chameo:hasSamplePreparationInstrument :suhySamplePreparationInstrument1 ;
                        chameo:hasSamplePreparationParameter :suhyMountingOnHolderTemperature1 ;
@@ -378,7 +379,7 @@ chameo:UserCase rdf:type owl:Class .
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleInspectionParameter1
 :suhySampleInspectionParameter1 rdf:type owl:NamedIndividual ,
                                          chameo:SampleInspectionParameter ;
-                                rdfs:label "Magnification"@en .
+                                rdfs:label "Magnification 5000x, 10000x"@en .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySamplePreparationInstrument1
