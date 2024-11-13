@@ -1,4 +1,4 @@
-@prefix : <https://w3id.org/emmo/application/suhy#> .
+@prefix : <https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,10 +7,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
-@base <https://w3id.org/emmo/application/suhy#> .
+@base <https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#> .
 
-<https://w3id.org/emmo/application/suhy> rdf:type owl:Ontology ;
-                                          owl:versionIRI <https://w3id.org/emmo/application/0.1.0/suhy> ;
+<https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface> rdf:type owl:Ontology ;
+                                          owl:versionIRI <https://w3id.org/emmo/application/0.1.0/superhydrophobic-nanopatterned-surface> ;
                                           owl:imports <https://w3id.org/emmo/domain/characterisation-methodology/1.0.0-beta5/chameo> ;
                                           <http://purl.org/dc/terms/abstract> "Application ontology for Superhydrophobic Nanopatterned Surfaces testing developed within the NanoMECommons project."@en ;
                                           <http://purl.org/dc/terms/alternative> "Suhy" ;
@@ -21,7 +21,7 @@
                                                                              "Pierluigi Del Nostro" ;
                                           <http://purl.org/dc/terms/description> "Superhydrophobic Nanopatterned Surfaces testing ontology"@en ;
                                           <http://purl.org/dc/terms/hasFormat> <https://www.w3.org/TR/turtle/> ;
-                                          <http://purl.org/dc/terms/identifier> "https://w3id.org/emmo/application/suhy" ;
+                                          <http://purl.org/dc/terms/identifier> "https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface" ;
                                           <http://purl.org/dc/terms/issued> "" ;
                                           <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/legalcode" ;
                                           <http://purl.org/dc/terms/modified> "2023-10-23T15:00:00Z" ;
@@ -30,7 +30,7 @@
                                           <http://purl.org/dc/terms/title> "Superhydrophobic Nanopatterned Surfaces testing ontology"@en ;
                                           <http://purl.org/ontology/bibo/doi> "" ;
                                           <http://purl.org/vocab/vann/preferredNamespacePrefix> "suhy"@en ;
-                                          <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/emmo/application/suhy" ;
+                                          <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface" ;
                                           rdfs:comment """Contacts:
 													Gerhard Goldbeck
 													Goldbeck Consulting Ltd (UK)
@@ -210,12 +210,12 @@ emmo:EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0 rdf:type owl:Class .
 emmo:MilliMetre rdf:type owl:Class .
 
 
-###  https://w3id.org/emmo/application/suhy#SuperHydrophobicCharacterisationWorkflow
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SuperHydrophobicCharacterisationWorkflow
 :SuperHydrophobicCharacterisationWorkflow rdf:type owl:Class ;
                                           rdfs:subClassOf chameo:CharacterisationWorkflow .
 
 
-###  https://w3id.org/emmo/application/suhy#SuperhydrophobicNanopatternedSurface
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SuperhydrophobicNanopatternedSurface
 :SuperhydrophobicNanopatternedSurface rdf:type owl:Class ;
                                       rdfs:subClassOf chameo:Sample ;
                                       rdfs:comment "" ;
@@ -291,42 +291,42 @@ chameo:UserCase rdf:type owl:Class .
 #    Individuals
 #################################################################
 
-###  https://w3id.org/emmo/application/suhy#suhyCharacterisationData1
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyCharacterisationData1
 :suhyCharacterisationData1 rdf:type owl:NamedIndividual ,
                                     chameo:CharacterisationData ;
                            rdfs:label "Annotated TIFF images"@en .
 
 
-###  https://w3id.org/emmo/application/suhy#suhyCharacterisationEnvironment1
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyCharacterisationEnvironment1
 :suhyCharacterisationEnvironment1 rdf:type owl:NamedIndividual ,
                                            chameo:CharacterisationEnvironment ;
                                   rdfs:label "Mounting on holder environment" .
 
 
-###  https://w3id.org/emmo/application/suhy#suhyHasCharacterisationEnvironmentProperty1
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyHasCharacterisationEnvironmentProperty1
 :suhyHasCharacterisationEnvironmentProperty1 rdf:type owl:NamedIndividual ;
                                              rdfs:label "Temperature = RT" .
 
 
-###  https://w3id.org/emmo/application/suhy#suhyHolder1
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyHolder1
 :suhyHolder1 rdf:type owl:NamedIndividual ,
                       chameo:Holder ;
              rdfs:label "Aluminum stub" .
 
 
-###  https://w3id.org/emmo/application/suhy#suhyLOEMediumHigh1
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyLOEMediumHigh1
 :suhyLOEMediumHigh1 rdf:type owl:NamedIndividual ,
                              chameo:LevelOfExpertise ;
                     rdfs:label "Medium/High" .
 
 
-###  https://w3id.org/emmo/application/suhy#suhyLab1
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyLab1
 :suhyLab1 rdf:type owl:NamedIndividual ,
                    chameo:Laboratory ;
           rdfs:label "Università degli Studi Roma Tre" .
 
 
-###  https://w3id.org/emmo/application/suhy#suhyMountingOnHolder1
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMountingOnHolder1
 :suhyMountingOnHolder1 rdf:type owl:NamedIndividual ,
                                 chameo:Mounting ;
                        chameo:hasCharacterisationEnvironment :suhyCharacterisationEnvironment1 ;
@@ -337,20 +337,20 @@ chameo:UserCase rdf:type owl:Class .
                        rdfs:label "Mounting on holder"@en .
 
 
-###  https://w3id.org/emmo/application/suhy#suhyMountingOnHolderTemperature1
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMountingOnHolderTemperature1
 :suhyMountingOnHolderTemperature1 rdf:type owl:NamedIndividual ,
                                            chameo:SamplePreparationParameter ;
                                   rdfs:comment "Temperature = ~100°" ;
                                   rdfs:label "Mounting on holder temperature"@en .
 
 
-###  https://w3id.org/emmo/application/suhy#suhyOperator1
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyOperator1
 :suhyOperator1 rdf:type owl:NamedIndividual ,
                         chameo:Operator ;
                rdfs:label "Saqib Rashid" .
 
 
-###  https://w3id.org/emmo/application/suhy#suhySEM1
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySEM1
 :suhySEM1 rdf:type owl:NamedIndividual ,
                    chameo:SampleInspection ,
                    chameo:ScanningElectronMicroscopy ;
@@ -361,7 +361,7 @@ chameo:UserCase rdf:type owl:Class .
           rdfs:label "Scanning Electron Microscopy1" .
 
 
-###  https://w3id.org/emmo/application/suhy#suhySampleHeight1
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleHeight1
 :suhySampleHeight1 rdf:type owl:NamedIndividual ,
                             emmo:EMMO_08bcf1d6_e719_46c8_bb21_24bc9bf34dba ,
                             emmo:MilliMetre ;
@@ -369,25 +369,25 @@ chameo:UserCase rdf:type owl:Class .
                    rdfs:label "Sample height" .
 
 
-###  https://w3id.org/emmo/application/suhy#suhySampleInspectionInstrument1
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleInspectionInstrument1
 :suhySampleInspectionInstrument1 rdf:type owl:NamedIndividual ,
                                           chameo:SampleInspectionInstrument ;
                                  rdfs:label "Helios 5CX" .
 
 
-###  https://w3id.org/emmo/application/suhy#suhySampleInspectionParameter1
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleInspectionParameter1
 :suhySampleInspectionParameter1 rdf:type owl:NamedIndividual ,
                                          chameo:SampleInspectionParameter ;
                                 rdfs:label "Magnification"@en .
 
 
-###  https://w3id.org/emmo/application/suhy#suhySamplePreparationInstrument1
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySamplePreparationInstrument1
 :suhySamplePreparationInstrument1 rdf:type owl:NamedIndividual ,
                                            chameo:SamplePreparationInstrument ;
                                   rdfs:label "Hot plate" .
 
 
-###  https://w3id.org/emmo/application/suhy#suhySampleThickness1
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleThickness1
 :suhySampleThickness1 rdf:type owl:NamedIndividual ,
                                emmo:EMMO_43003c86_9d15_433b_9789_ee2940920656 ,
                                emmo:MilliMetre ;
@@ -395,7 +395,7 @@ chameo:UserCase rdf:type owl:Class .
                       rdfs:label "Sample thickness" .
 
 
-###  https://w3id.org/emmo/application/suhy#suhySampleWidth1
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleWidth1
 :suhySampleWidth1 rdf:type owl:NamedIndividual ,
                            emmo:EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0 ,
                            emmo:MilliMetre ;
@@ -403,21 +403,21 @@ chameo:UserCase rdf:type owl:Class .
                   rdfs:label "Sample width" .
 
 
-###  https://w3id.org/emmo/application/suhy#suhyUserCase1
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyUserCase1
 :suhyUserCase1 rdf:type owl:NamedIndividual ,
                         chameo:UserCase ;
                rdfs:comment "Superhydrophobic surfaces must have low surface free energy and be mechanically resistant."@en ;
                rdfs:label "Superhydrophobic surfaces performance"@en .
 
 
-###  https://w3id.org/emmo/application/suhy#suhyWorkflow1
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyWorkflow1
 :suhyWorkflow1 rdf:type owl:NamedIndividual ,
                         :SuperHydrophobicCharacterisationWorkflow ;
                rdfs:comment "Wear resistance of patterned surfaces combined with high hydrophobicity performance assessment"@en ;
                rdfs:label "Superhydrophobic surfaces performance assessment: mechanical and surface free energy"@en .
 
 
-###  https://w3id.org/emmo/application/suhy#superhydrophobicNanopatternedSurface1
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#superhydrophobicNanopatternedSurface1
 :superhydrophobicNanopatternedSurface1 rdf:type owl:NamedIndividual ,
                                                 :SuperhydrophobicNanopatternedSurface ;
                                        emmo:EMMO_fd689787_31b0_41cf_bf03_0d69af76469d :suhySampleHeight1 ,
