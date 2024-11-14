@@ -10,7 +10,7 @@
 @base <https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#> .
 
 <https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface> rdf:type owl:Ontology ;
-                                                                            owl:versionIRI <https://w3id.org/emmo/application/0.1.0/superhydrophobic-nanopatterned-surface> ;
+                                                                            
                                                                             owl:imports <https://w3id.org/emmo/domain/characterisation-methodology/1.0.0-beta5/chameo> ;
                                                                             <http://purl.org/dc/terms/abstract> "Application ontology for Superhydrophobic Nanopatterned Surfaces testing developed within the NanoMECommons project."@en ;
                                                                             <http://purl.org/dc/terms/alternative> "Suhy" ;
