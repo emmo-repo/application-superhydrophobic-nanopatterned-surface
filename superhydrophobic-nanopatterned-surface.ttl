@@ -10,7 +10,7 @@
 @base <https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#> .
 
 <https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface> rdf:type owl:Ontology ;
-                                                                            owl:imports <https://w3id.org/emmo/domain/1.0.0-alpha1/nanoindentation> ;
+                                                                            owl:imports <https://w3id.org/emmo/domain/nanoindentation> ;
                                                                             <http://purl.org/dc/terms/abstract> "Application ontology for Superhydrophobic Nanopatterned Surfaces testing developed within the NanoMECommons project."@en ;
                                                                             <http://purl.org/dc/terms/alternative> "Suhy" ;
                                                                             <http://purl.org/dc/terms/bibliographicCitation> "Work under review - not available yet" ;
@@ -141,149 +141,486 @@ skos:prefLabel rdf:type owl:AnnotationProperty .
 <http://xmlns.com/foaf/0.1/page> rdf:type owl:AnnotationProperty .
 
 
-###  https://w3id.org/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9
-emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 rdf:type owl:AnnotationProperty .
-
-
-#################################################################
-#    Object Properties
-#################################################################
-
-###  https://w3id.org/emmo#EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840
-emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 rdf:type owl:ObjectProperty .
-
-
-###  https://w3id.org/emmo#EMMO_fd689787_31b0_41cf_bf03_0d69af76469d
-emmo:EMMO_fd689787_31b0_41cf_bf03_0d69af76469d rdf:type owl:ObjectProperty .
-
-
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationEnvironment
-chameo:hasCharacterisationEnvironment rdf:type owl:ObjectProperty .
-
-
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasSampleInspectionInstrument
-chameo:hasSampleInspectionInstrument rdf:type owl:ObjectProperty .
-
-
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasSampleInspectionParameter
-chameo:hasSampleInspectionParameter rdf:type owl:ObjectProperty .
-
-
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasSamplePreparationInstrument
-chameo:hasSamplePreparationInstrument rdf:type owl:ObjectProperty .
-
-
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasSamplePreparationParameter
-chameo:hasSamplePreparationParameter rdf:type owl:ObjectProperty .
-
-
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#requiresLevelOfExpertise
-chameo:requiresLevelOfExpertise rdf:type owl:ObjectProperty .
-
-
-#################################################################
-#    Data properties
-#################################################################
-
-###  https://w3id.org/emmo#EMMO_faf79f53_749d_40b2_807c_d34244c192f4
-emmo:EMMO_faf79f53_749d_40b2_807c_d34244c192f4 rdf:type owl:DatatypeProperty .
-
-
 #################################################################
 #    Classes
 #################################################################
 
-###  https://w3id.org/emmo#EMMO_08bcf1d6_e719_46c8_bb21_24bc9bf34dba
-emmo:EMMO_08bcf1d6_e719_46c8_bb21_24bc9bf34dba rdf:type owl:Class .
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#AccelerationVoltage
+:AccelerationVoltage rdf:type owl:Class ;
+                     rdfs:subClassOf chameo:SampleInspectionParameter ;
+                     skos:prefLabel "AccelerationVoltage" .
 
 
-###  https://w3id.org/emmo#EMMO_43003c86_9d15_433b_9789_ee2940920656
-emmo:EMMO_43003c86_9d15_433b_9789_ee2940920656 rdf:type owl:Class .
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#AluminumStub
+:AluminumStub rdf:type owl:Class ;
+              rdfs:subClassOf chameo:Holder ;
+              rdfs:comment "" ;
+              skos:prefLabel "AluminumStub" ;
+              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Aluminum stub used as holder for the superhydrophobic nanopatterned surface sample."@en .
 
 
-###  https://w3id.org/emmo#EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0
-emmo:EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0 rdf:type owl:Class .
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#AnnotatedTiffImages
+:AnnotatedTiffImages rdf:type owl:Class ;
+                     rdfs:subClassOf chameo:RawData ;
+                     rdfs:comment "" ;
+                     skos:prefLabel "AnnotatedTiffImages" .
 
 
-###  https://w3id.org/emmo#MilliMetre
-emmo:MilliMetre rdf:type owl:Class .
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#BeamCurrent
+:BeamCurrent rdf:type owl:Class ;
+             rdfs:subClassOf chameo:SampleInspectionParameter ;
+             skos:prefLabel "BeamCurrent" .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#CleanedAnnotatedTiffImages
+:CleanedAnnotatedTiffImages rdf:type owl:Class ;
+                            rdfs:subClassOf chameo:PrimaryData ;
+                            rdfs:comment "" ;
+                            skos:prefLabel "CleanedAnnotatedTiffImages" .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#CleanedLoadDisplacementCurve
+:CleanedLoadDisplacementCurve rdf:type owl:Class ;
+                              rdfs:subClassOf chameo:PrimaryData ;
+                              rdfs:comment "" ;
+                              skos:prefLabel "CleanedLoadDisplacementCurve" .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#CompressiveStrenght
+:CompressiveStrenght rdf:type owl:Class ;
+                     rdfs:subClassOf chameo:CharacterisationProperty ,
+                                     chameo:RawData ;
+                     rdfs:comment "" ;
+                     skos:prefLabel "CompressiveStrenght" .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#FrictionCoefficient
+:FrictionCoefficient rdf:type owl:Class ;
+                     rdfs:subClassOf chameo:CharacterisationProperty ,
+                                     chameo:RawData ;
+                     rdfs:comment "" ;
+                     skos:prefLabel "FrictionCoefficient" .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#Helios5X
+:Helios5X rdf:type owl:Class ;
+          rdfs:subClassOf chameo:SampleInspectionInstrument ;
+          rdfs:comment "" ;
+          skos:prefLabel "Helios5X" .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#HotPlate
+:HotPlate rdf:type owl:Class ;
+          rdfs:subClassOf chameo:SamplePreparationInstrument .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#INano
+:INano rdf:type owl:Class ;
+       rdfs:subClassOf <https://w3id.org/emmo/domain/nanoindentation#EMMO_09591a7a-39f9-550f-8b87-77bb34f4fb2f> ;
+       rdfs:comment "" ;
+       skos:prefLabel "INano" .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#JKR
+:JKR rdf:type owl:Class ;
+     rdfs:subClassOf chameo:PostProcessingModel .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#KLAG200
+:KLAG200 rdf:type owl:Class ;
+         rdfs:subClassOf <https://w3id.org/emmo/domain/nanoindentation#EMMO_09591a7a-39f9-550f-8b87-77bb34f4fb2f> ;
+         rdfs:comment "" ;
+         skos:prefLabel "KLAG200" .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#LateralForce
+:LateralForce rdf:type owl:Class ;
+              rdfs:subClassOf chameo:RawData ;
+              rdfs:comment "" ;
+              skos:prefLabel "LateralForce" .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#LoadDisplacementCurve
+:LoadDisplacementCurve rdf:type owl:Class ;
+                       rdfs:subClassOf chameo:RawData ;
+                       rdfs:comment "" ;
+                       skos:prefLabel "LoadDisplacementCurve" .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#Magnification
+:Magnification rdf:type owl:Class ;
+               rdfs:subClassOf chameo:SampleInspectionParameter ;
+               skos:prefLabel "Magnification" .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#MountingOnAluminumHolder
+:MountingOnAluminumHolder rdf:type owl:Class ;
+                          rdfs:subClassOf chameo:CharacterisationTask ,
+                                          chameo:Mounting ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                            owl:someValuesFrom :SurfaceTopologyAnalysis
+                                          ] ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty chameo:hasHolder ;
+                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                            owl:onClass :AluminumStub
+                                          ] ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty chameo:hasSampleForPreparation ;
+                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                            owl:onClass :SuperhydrophobicNanopatternedSurfaceSample
+                                          ] ;
+                          skos:prefLabel "MountingOnAluminumHolder" .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#NanoscratchBreakageTesting
+:NanoscratchBreakageTesting rdf:type owl:Class ;
+                            rdfs:subClassOf chameo:CharacterisationTask ,
+                                            <https://w3id.org/emmo/domain/nanoindentation#EMMO_b3111cf6-107c-4aa6-8f3c-936348906200> ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                              owl:someValuesFrom :SurfaceDamagesAnalysis
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty chameo:hasCharacterisationOutput ;
+                                              owl:someValuesFrom :CompressiveStrenght
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty chameo:hasCharacterisationOutput ;
+                                              owl:someValuesFrom :FrictionCoefficient
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty chameo:hasCharacterisationOutput ;
+                                              owl:someValuesFrom :LateralForce
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty chameo:hasCharacterisationOutput ;
+                                              owl:someValuesFrom :LoadDisplacementCurve
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty chameo:hasMeasurementParameter ;
+                                              owl:someValuesFrom :ScratchDistance
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty chameo:hasMeasurementParameter ;
+                                              owl:someValuesFrom :ScratchVelocity
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty chameo:hasMeasurementParameter ;
+                                              owl:someValuesFrom <https://w3id.org/emmo/domain/nanoindentation#EMMO_dd3442d3-3dfa-4be6-be6e-68f0eaed1476>
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty chameo:hasMeasurementSample ;
+                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                              owl:onClass :SuperhydrophobicNanopatternedSurfaceSample
+                                            ] .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#NanoscratchCalibrationProcess
+:NanoscratchCalibrationProcess rdf:type owl:Class ;
+                               rdfs:subClassOf chameo:CalibrationProcess ,
+                                               chameo:CharacterisationTask ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                                 owl:someValuesFrom :NanoscratchBreakageTesting
+                                               ] ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty chameo:hasCharacterisationOutput ;
+                                                 owl:someValuesFrom <https://w3id.org/emmo/domain/nanoindentation#EMMO_8b35a71c-caf2-49c5-bfcc-18bb33f1a4e0>
+                                               ] ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty chameo:hasCharacterisationOutput ;
+                                                 owl:someValuesFrom <https://w3id.org/emmo/domain/nanoindentation#EMMO_9400e26c-e8d7-4fe5-a75f-1ed8196c9268>
+                                               ] ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty chameo:hasMeasurementParameter ;
+                                                 owl:someValuesFrom <https://w3id.org/emmo/domain/nanoindentation#EMMO_5a0e2d14-1712-419e-85e2-95146e489b98>
+                                               ] ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty chameo:hasMeasurementParameter ;
+                                                 owl:someValuesFrom <https://w3id.org/emmo/domain/nanoindentation#EMMO_da48432d-7f82-4e50-9976-0f57dbfd6cb1>
+                                               ] ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty chameo:hasMeasurementParameter ;
+                                                 owl:someValuesFrom <https://w3id.org/emmo/domain/nanoindentation#EMMO_dd3442d3-3dfa-4be6-be6e-68f0eaed1476>
+                                               ] ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty chameo:hasReferenceSample ;
+                                                 owl:someValuesFrom :Silica
+                                               ] ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty chameo:hasInstrumentForCalibration ;
+                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                 owl:onClass chameo:CharacterisationMeasurementInstrument
+                                               ] ;
+                               rdfs:comment "" ;
+                               skos:prefLabel "NanoscratchCalibrationProcess" .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#PullOffForceMeasurement
+:PullOffForceMeasurement rdf:type owl:Class ;
+                         rdfs:subClassOf chameo:CharacterisationTask ,
+                                         <https://w3id.org/emmo/domain/nanoindentation#EMMO_d7a08a6e-b3cb-5d08-b67c-e7618d17ffeb> ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                           owl:someValuesFrom :UnrelevantCurvesRemoval
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty chameo:hasCharacterisationOutput ;
+                                           owl:someValuesFrom :LoadDisplacementCurve
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty chameo:hasMeasurementParameter ;
+                                           owl:someValuesFrom :SettleTime
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty chameo:hasMeasurementParameter ;
+                                           owl:someValuesFrom :SurfaceTriggerRequired
+                                         ] .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#ScratchDistance
+:ScratchDistance rdf:type owl:Class ;
+                 rdfs:subClassOf chameo:MeasurementParameter ;
+                 rdfs:comment "" ;
+                 skos:prefLabel "ScratchDistance" .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#ScratchVelocity
+:ScratchVelocity rdf:type owl:Class ;
+                 rdfs:subClassOf chameo:MeasurementParameter ;
+                 rdfs:comment "" ;
+                 skos:prefLabel "ScratchVelocity" .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SettleTime
+:SettleTime rdf:type owl:Class ;
+            rdfs:subClassOf chameo:MeasurementParameter ;
+            rdfs:comment "" ;
+            skos:prefLabel "SettleTime" .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#Silica
+:Silica rdf:type owl:Class ;
+        rdfs:subClassOf chameo:ReferenceSample .
+
+
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SpheroConicalIndenter
+:SpheroConicalIndenter rdf:type owl:Class ;
+                       rdfs:subClassOf <https://w3id.org/emmo/domain/nanoindentation#EMMO_a518471c-b749-5c03-bc7e-04f2aba1906e> .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SuperHydrophobicCharacterisationWorkflow
 :SuperHydrophobicCharacterisationWorkflow rdf:type owl:Class ;
-                                          rdfs:subClassOf chameo:CharacterisationWorkflow .
+                                          rdfs:subClassOf chameo:CharacterisationWorkflow ,
+                                                          [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                   owl:someValuesFrom :MountingOnAluminumHolder
+                                                                                 ]
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                   owl:someValuesFrom :NanoscratchBreakageTesting
+                                                                                 ]
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                   owl:someValuesFrom :NanoscratchCalibrationProcess
+                                                                                 ]
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                   owl:someValuesFrom :PullOffForceMeasurement
+                                                                                 ]
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                   owl:someValuesFrom :SurfaceDamagesAnalysis
+                                                                                 ]
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                   owl:someValuesFrom :SurfaceFreeEnergyCalculation
+                                                                                 ]
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                   owl:someValuesFrom :SurfaceTopologyAnalysis
+                                                                                 ]
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                   owl:someValuesFrom :TargetLoadOptimisation
+                                                                                 ]
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                   owl:someValuesFrom :UnrelevantCurvesRemoval
+                                                                                 ]
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                   owl:someValuesFrom :UnrelevantScratchesRemoval
+                                                                                 ]
+                                                                               ) ;
+                                                            rdf:type owl:Class
+                                                          ] ;
+                                          rdfs:comment """Superhydrophobic surfaces performance assessment: mechanical and surface free energy
+Wear resistance of patterned surfaces combined with high hydrophobicity performance assessment"""@en ;
+                                          skos:prefLabel "SuperHydrophobicCharacterisationWorkflow"@en .
 
 
-###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SuperhydrophobicNanopatternedSurface
-:SuperhydrophobicNanopatternedSurface rdf:type owl:Class ;
-                                      rdfs:subClassOf chameo:Sample ;
-                                      rdfs:comment "" ;
-                                      skos:prefLabel "SuperhydrophobicNanopatternedSurface" ;
-                                      emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Superhydrophobic nanopatterned surface"@en .
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SuperhydrophobicNanopatternedSurfaceSample
+:SuperhydrophobicNanopatternedSurfaceSample rdf:type owl:Class ;
+                                            rdfs:subClassOf chameo:Sample ;
+                                            rdfs:comment "" ;
+                                            skos:prefLabel "SuperhydrophobicNanopatternedSurfaceSample" ;
+                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Superhydrophobic nanopatterned surface"@en .
 
 
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationData
-chameo:CharacterisationData rdf:type owl:Class .
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SuperhydrophobicSurfacesPerformanceUserCase
+:SuperhydrophobicSurfacesPerformanceUserCase rdf:type owl:Class ;
+                                             rdfs:subClassOf chameo:UserCase ;
+                                             skos:prefLabel "SuperhydrophobicSurfacesPerformanceUserCase"@en ;
+                                             emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Superhydrophobic surfaces must have low surface free energy and be mechanically resistant."@en .
 
 
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationEnvironment
-chameo:CharacterisationEnvironment rdf:type owl:Class .
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceDamagesAnalysis
+:SurfaceDamagesAnalysis rdf:type owl:Class ;
+                        rdfs:subClassOf chameo:CharacterisationTask ,
+                                        chameo:SampleInspection ,
+                                        chameo:ScanningElectronMicroscopy ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                          owl:someValuesFrom :UnrelevantScratchesRemoval
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty chameo:hasCharacterisationOutput ;
+                                          owl:someValuesFrom :AnnotatedTiffImages
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty chameo:hasSampleInspectionParameter ;
+                                          owl:someValuesFrom :AccelerationVoltage
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty chameo:hasSampleInspectionParameter ;
+                                          owl:someValuesFrom :BeamCurrent
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty chameo:hasSampleInspectionParameter ;
+                                          owl:someValuesFrom :Magnification
+                                        ] .
 
 
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationWorkflow
-chameo:CharacterisationWorkflow rdf:type owl:Class .
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceFreeEnergy
+:SurfaceFreeEnergy rdf:type owl:Class ;
+                   rdfs:subClassOf chameo:CharacterisationProperty ,
+                                   chameo:SecondaryData ;
+                   rdfs:comment "" ;
+                   skos:prefLabel "CalculatedSurfaceFreeEnergy" .
 
 
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Holder
-chameo:Holder rdf:type owl:Class .
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceFreeEnergyCalculation
+:SurfaceFreeEnergyCalculation rdf:type owl:Class ;
+                              rdfs:subClassOf chameo:CharacterisationTask ,
+                                              chameo:DataPostProcessing ,
+                                              [ rdf:type owl:Restriction ;
+                                                owl:onProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
+                                                owl:someValuesFrom :CleanedLoadDisplacementCurve
+                                              ] ,
+                                              [ rdf:type owl:Restriction ;
+                                                owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
+                                                owl:someValuesFrom :SurfaceFreeEnergy
+                                              ] ,
+                                              [ rdf:type owl:Restriction ;
+                                                owl:onProperty chameo:hasPostProcessingModel ;
+                                                owl:someValuesFrom :JKR
+                                              ] .
 
 
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Laboratory
-chameo:Laboratory rdf:type owl:Class .
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceTopologyAnalysis
+:SurfaceTopologyAnalysis rdf:type owl:Class ;
+                         rdfs:subClassOf chameo:CharacterisationTask ,
+                                         chameo:SampleInspection ,
+                                         chameo:ScanningElectronMicroscopy ,
+                                         [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                                                  owl:someValuesFrom :NanoscratchBreakageTesting
+                                                                ]
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                                                  owl:someValuesFrom :PullOffForceMeasurement
+                                                                ]
+                                                              ) ;
+                                           rdf:type owl:Class
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty chameo:hasSampleForInspection ;
+                                           owl:someValuesFrom :SuperhydrophobicNanopatternedSurfaceSample
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty chameo:hasSampleInspectionParameter ;
+                                           owl:someValuesFrom :AccelerationVoltage
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty chameo:hasSampleInspectionParameter ;
+                                           owl:someValuesFrom :BeamCurrent
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty chameo:hasSampleInspectionParameter ;
+                                           owl:someValuesFrom :Magnification
+                                         ] ;
+                         rdfs:comment "" ;
+                         skos:prefLabel "SurfaceTopologyAnalysis" .
 
 
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#LevelOfExpertise
-chameo:LevelOfExpertise rdf:type owl:Class .
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceTriggerRequired
+:SurfaceTriggerRequired rdf:type owl:Class ;
+                        rdfs:subClassOf chameo:MeasurementParameter ;
+                        rdfs:comment "" ;
+                        skos:prefLabel "SurfaceTriggerRequired" .
 
 
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Mounting
-chameo:Mounting rdf:type owl:Class .
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#TargetLoadOptimisation
+:TargetLoadOptimisation rdf:type owl:Class ;
+                        rdfs:subClassOf chameo:CharacterisationTask ,
+                                        chameo:MeasurementSystemAdjustment ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                          owl:someValuesFrom :NanoscratchBreakageTesting
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
+                                          owl:someValuesFrom <https://w3id.org/emmo/domain/nanoindentation#EMMO_dd3442d3-3dfa-4be6-be6e-68f0eaed1476>
+                                        ] .
 
 
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Operator
-chameo:Operator rdf:type owl:Class .
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#UnrelevantCurvesRemoval
+:UnrelevantCurvesRemoval rdf:type owl:Class ;
+                         rdfs:subClassOf chameo:CharacterisationTask ,
+                                         chameo:OutlierRemoval ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
+                                           owl:someValuesFrom :LoadDisplacementCurve
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                           owl:someValuesFrom :SurfaceFreeEnergyCalculation
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
+                                           owl:someValuesFrom :CleanedLoadDisplacementCurve
+                                         ] .
 
 
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Sample
-chameo:Sample rdf:type owl:Class .
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#UnrelevantScratchesRemoval
+:UnrelevantScratchesRemoval rdf:type owl:Class ;
+                            rdfs:subClassOf chameo:CharacterisationTask ,
+                                            chameo:OutlierRemoval ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
+                                              owl:someValuesFrom :AnnotatedTiffImages
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
+                                              owl:someValuesFrom :CleanedAnnotatedTiffImages
+                                            ] .
 
 
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#SampleInspection
-chameo:SampleInspection rdf:type owl:Class .
-
-
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#SampleInspectionInstrument
-chameo:SampleInspectionInstrument rdf:type owl:Class .
-
-
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#SampleInspectionParameter
-chameo:SampleInspectionParameter rdf:type owl:Class .
-
-
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#SamplePreparationInstrument
-chameo:SamplePreparationInstrument rdf:type owl:Class .
-
-
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#SamplePreparationParameter
-chameo:SamplePreparationParameter rdf:type owl:Class .
-
-
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#ScanningElectronMicroscopy
-chameo:ScanningElectronMicroscopy rdf:type owl:Class .
-
-
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#UserCase
-chameo:UserCase rdf:type owl:Class .
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#OutlierRemoval
+chameo:OutlierRemoval rdf:type owl:Class .
 
 
 #################################################################
@@ -292,7 +629,7 @@ chameo:UserCase rdf:type owl:Class .
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyCalibration1
 :suhyCalibration1 rdf:type owl:NamedIndividual ,
-                           <https://w3id.org/emmo/domain/nanoindentation#EMMO_b7264717-216e-46c6-9bf1-b17009a358c2> ;
+                           :NanoscratchCalibrationProcess ;
                   emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d :suhyNanoscratch1 ;
                   emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 :suhyFrameStiffness1 ,
                                                                  :suhyTipAreaFunction1 ;
@@ -306,7 +643,7 @@ chameo:UserCase rdf:type owl:Class .
 2.	Tip area function
 3.	Compliance calibration
 4.	Continuous stiffness measurement"""@en ;
-                  rdfs:label "Nanoindentation calibration" .
+                  rdfs:label "Nanoscratch calibration" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyCharacterisationEnviroment2
@@ -340,7 +677,7 @@ chameo:UserCase rdf:type owl:Class .
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyDataFiltering1
 :suhyDataFiltering1 rdf:type owl:NamedIndividual ,
-                             chameo:DataFiltering ;
+                             :UnrelevantScratchesRemoval ;
                     emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 :suhyRawData1 ;
                     emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 :suhyPrimaryData1 ;
                     rdfs:comment "Removal of scratches which are not relevant due to disalignment or defects"@en ;
@@ -349,7 +686,7 @@ chameo:UserCase rdf:type owl:Class .
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyDataFiltering2
 :suhyDataFiltering2 rdf:type owl:NamedIndividual ,
-                             chameo:DataFiltering ;
+                             :UnrelevantCurvesRemoval ;
                     emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d :suhyDataPostProcessing1 ;
                     chameo:hasCharacterisationInput :suhySFELoadDisplacementCurve1 ;
                     chameo:hasCharacterisationOutput :suhySFELoadDisplacementCurve2 ;
@@ -359,7 +696,7 @@ chameo:UserCase rdf:type owl:Class .
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyDataPostProcessing1
 :suhyDataPostProcessing1 rdf:type owl:NamedIndividual ,
-                                  chameo:DataPostProcessing ;
+                                  :SurfaceFreeEnergyCalculation ;
                          chameo:hasCharacterisationInput :suhySFELoadDisplacementCurve2 ;
                          chameo:hasCharacterisationOutput :suhySecondaryData1 ;
                          chameo:hasCharacterisationSoftware :suhySoftware1 ;
@@ -379,7 +716,7 @@ chameo:UserCase rdf:type owl:Class .
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyFrameStiffness1
 :suhyFrameStiffness1 rdf:type owl:NamedIndividual ,
                               <https://w3id.org/emmo/domain/nanoindentation#EMMO_9400e26c-e8d7-4fe5-a75f-1ed8196c9268> ;
-                     rdfs:label "Nanoindentation calibration frame stiffness" .
+                     rdfs:label "Nanoscratch calibration frame stiffness" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyHolder1
@@ -391,7 +728,7 @@ chameo:UserCase rdf:type owl:Class .
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyHoldingTime1
 :suhyHoldingTime1 rdf:type owl:NamedIndividual ,
                            <https://w3id.org/emmo/domain/nanoindentation#EMMO_da48432d-7f82-4e50-9976-0f57dbfd6cb1> ;
-                  rdfs:label "Nanoindentation calibration holding time"@en .
+                  rdfs:label "Nanoscratch calibration holding time"@en .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyLOEMediumHigh1
@@ -419,18 +756,19 @@ chameo:UserCase rdf:type owl:Class .
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMearurementParameter3
 :suhyMearurementParameter3 rdf:type owl:NamedIndividual ,
-                                    chameo:MeasurementParameter ;
+                                    :SurfaceTriggerRequired ;
                            rdfs:label "Surface trigger required = 2000" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMeasurementParameter4
 :suhyMeasurementParameter4 rdf:type owl:NamedIndividual ,
-                                    chameo:MeasurementParameter ;
+                                    :SettleTime ;
                            rdfs:label "Settle time = 30s" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMeasurementParameterAdjustment1
 :suhyMeasurementParameterAdjustment1 rdf:type owl:NamedIndividual ,
+                                              :TargetLoadOptimisation ,
                                               chameo:MeasurementSystemAdjustment ;
                                      emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d :suhyNanoscratch1 ;
                                      emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 :suhyOptimisedTargetLoad1 ;
@@ -449,12 +787,12 @@ chameo:UserCase rdf:type owl:Class .
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMeasurementTime2
 :suhyMeasurementTime2 rdf:type owl:NamedIndividual ,
                                <https://w3id.org/emmo/domain/nanoindentation#EMMO_0554da63-0423-5ca5-a176-9dd07ef32fb8> ;
-                      rdfs:label "120s" .
+                      rdfs:label "Measurement time = 120s" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMountingOnHolder1
 :suhyMountingOnHolder1 rdf:type owl:NamedIndividual ,
-                                chameo:Mounting ;
+                                :MountingOnAluminumHolder ;
                        emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d :suhySEM1 ;
                        chameo:hasCharacterisationEnvironment :suhyCharacterisationEnvironment1 ;
                        chameo:hasHolder :suhyHolder1 ;
@@ -486,7 +824,7 @@ chameo:UserCase rdf:type owl:Class .
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyNanoscratch1
 :suhyNanoscratch1 rdf:type owl:NamedIndividual ,
-                           <https://w3id.org/emmo/domain/nanoindentation#EMMO_b3111cf6-107c-4aa6-8f3c-936348906200> ;
+                           :NanoscratchBreakageTesting ;
                   emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d :suhySEM2 ;
                   chameo:hasCharacterisationEnvironment :suhyCharacterisationEnvironment1 ;
                   chameo:hasCharacterisationMeasurementInstrument :suhyNanoindenter1 ;
@@ -507,25 +845,25 @@ chameo:UserCase rdf:type owl:Class .
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyNanoscratchOutput1
 :suhyNanoscratchOutput1 rdf:type owl:NamedIndividual ,
-                                 chameo:RawData ;
+                                 :LoadDisplacementCurve ;
                         rdfs:label "Nanoscratch load-displacement curve" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyNanoscratchOutput2
 :suhyNanoscratchOutput2 rdf:type owl:NamedIndividual ,
-                                 chameo:RawData ;
+                                 :LateralForce ;
                         rdfs:label "Nanoscratch lateral force" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyNanoscratchOutput3
 :suhyNanoscratchOutput3 rdf:type owl:NamedIndividual ,
-                                 chameo:RawData ;
+                                 :FrictionCoefficient ;
                         rdfs:label "Nanoscratch friction coefficient" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyNanoscratchOutput4
 :suhyNanoscratchOutput4 rdf:type owl:NamedIndividual ,
-                                 chameo:RawData ;
+                                 :CompressiveStrenght ;
                         rdfs:label "Nanoscratch compressive strenght" .
 
 
@@ -539,26 +877,27 @@ chameo:UserCase rdf:type owl:Class .
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyOptimisedTargetLoad1
 :suhyOptimisedTargetLoad1 rdf:type owl:NamedIndividual ,
-                                   chameo:MeasurementParameter ;
+                                   chameo:MeasurementParameter ,
+                                   <https://w3id.org/emmo/domain/nanoindentation#EMMO_dd3442d3-3dfa-4be6-be6e-68f0eaed1476> ;
                           rdfs:comment "Target load optimised" ;
                           rdfs:label "Target load = 100-200mN" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyPostProcessingModel1
 :suhyPostProcessingModel1 rdf:type owl:NamedIndividual ,
-                                   chameo:PostProcessingModel ;
-                          rdfs:label "JKR" .
+                                   :JKR ;
+                          rdfs:label "JKR Model" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyPrimaryData1
 :suhyPrimaryData1 rdf:type owl:NamedIndividual ,
-                           chameo:PrimaryData ;
+                           :CleanedAnnotatedTiffImages ;
                   rdfs:label "Cleaned annotated TIFF images1" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyProbe1
 :suhyProbe1 rdf:type owl:NamedIndividual ,
-                     <https://w3id.org/emmo/domain/nanoindentation#EMMO_a518471c-b749-5c03-bc7e-04f2aba1906e> ;
+                     :SpheroConicalIndenter ;
             rdfs:comment "Spheroconical indenter (50 um radius)" ;
             rdfs:label "Spheroconical indenter" .
 
@@ -575,13 +914,13 @@ chameo:UserCase rdf:type owl:Class .
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyRawData1
 :suhyRawData1 rdf:type owl:NamedIndividual ,
-                       chameo:RawData ;
+                       :AnnotatedTiffImages ;
               rdfs:label "Annotated TIFF images1"@en .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyRawData2
 :suhyRawData2 rdf:type owl:NamedIndividual ,
-                       chameo:RawData ;
+                       :AnnotatedTiffImages ;
               rdfs:label "Annotated TIFF images2" .
 
 
@@ -593,8 +932,7 @@ chameo:UserCase rdf:type owl:Class .
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySEM1
 :suhySEM1 rdf:type owl:NamedIndividual ,
-                   chameo:SampleInspection ,
-                   chameo:ScanningElectronMicroscopy ;
+                   :SurfaceTopologyAnalysis ;
           emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d :suhySurfaceFreeEnergy1 ;
           chameo:hasCharacterisationOutput :suhyRawData1 ;
           chameo:hasSampleForInspection :superhydrophobicNanopatternedSurface1 ;
@@ -608,8 +946,7 @@ chameo:UserCase rdf:type owl:Class .
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySEM2
 :suhySEM2 rdf:type owl:NamedIndividual ,
-                   chameo:SampleInspection ,
-                   chameo:ScanningElectronMicroscopy ;
+                   :SurfaceDamagesAnalysis ;
           emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d :suhyDataFiltering1 ;
           chameo:hasCharacterisationOutput :suhyRawData2 ;
           chameo:hasSampleInspectionInstrument :suhySampleInspectionInstrument1 ;
@@ -628,80 +965,57 @@ chameo:UserCase rdf:type owl:Class .
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySFELoadDisplacementCurve2
 :suhySFELoadDisplacementCurve2 rdf:type owl:NamedIndividual ,
-                                        chameo:PrimaryData ;
+                                        :CleanedLoadDisplacementCurve ;
                                rdfs:comment "Cleaned dataset of surface free energy load displacement curves where the curves without pull-off recorded are removed"@en ;
                                rdfs:label "Cleaned surface free energy load-displacement curves"@en .
 
 
-###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleHeight1
-:suhySampleHeight1 rdf:type owl:NamedIndividual ,
-                            emmo:EMMO_08bcf1d6_e719_46c8_bb21_24bc9bf34dba ,
-                            emmo:MilliMetre ;
-                   emmo:EMMO_faf79f53_749d_40b2_807c_d34244c192f4 5 ;
-                   rdfs:label "Sample height" .
-
-
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleInspectionInstrument1
 :suhySampleInspectionInstrument1 rdf:type owl:NamedIndividual ,
-                                          chameo:SampleInspectionInstrument ;
+                                          :Helios5X ;
                                  rdfs:label "Helios 5CX" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleInspectionParameter1
 :suhySampleInspectionParameter1 rdf:type owl:NamedIndividual ,
+                                         :Magnification ,
                                          chameo:SampleInspectionParameter ;
                                 rdfs:label "Magnification 5000x, 10000x"@en .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleInspectionParameter2
 :suhySampleInspectionParameter2 rdf:type owl:NamedIndividual ,
-                                         chameo:SampleInspectionParameter ;
+                                         :AccelerationVoltage ;
                                 rdfs:label "Acceleration voltage = 2kV" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleInspectionParameter3
 :suhySampleInspectionParameter3 rdf:type owl:NamedIndividual ,
-                                         chameo:SamplePreparationParameter ;
+                                         :BeamCurrent ;
                                 rdfs:label "Beam current = 0.34nA" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySamplePreparationInstrument1
 :suhySamplePreparationInstrument1 rdf:type owl:NamedIndividual ,
-                                           chameo:SamplePreparationInstrument ;
+                                           :HotPlate ;
                                   rdfs:label "Hot plate" .
-
-
-###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleThickness1
-:suhySampleThickness1 rdf:type owl:NamedIndividual ,
-                               emmo:EMMO_43003c86_9d15_433b_9789_ee2940920656 ,
-                               emmo:MilliMetre ;
-                      emmo:EMMO_faf79f53_749d_40b2_807c_d34244c192f4 3 ;
-                      rdfs:label "Sample thickness" .
-
-
-###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleWidth1
-:suhySampleWidth1 rdf:type owl:NamedIndividual ,
-                           emmo:EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0 ,
-                           emmo:MilliMetre ;
-                  emmo:EMMO_faf79f53_749d_40b2_807c_d34244c192f4 5 ;
-                  rdfs:label "Sample width" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyScratchDistance1
 :suhyScratchDistance1 rdf:type owl:NamedIndividual ,
-                               chameo:MeasurementParameter ;
+                               :ScratchDistance ;
                       rdfs:label "Scratch distance = 500um" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyScratchVelocity1
 :suhyScratchVelocity1 rdf:type owl:NamedIndividual ,
-                               chameo:MeasurementParameter ;
+                               :ScratchVelocity ;
                       rdfs:label "Scratch velocity = 10um/s" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySecondaryData1
 :suhySecondaryData1 rdf:type owl:NamedIndividual ,
-                             chameo:SecondaryData ;
+                             :SurfaceFreeEnergy ;
                     rdfs:label "Calculated Surface Free Energy"@en .
 
 
@@ -720,9 +1034,8 @@ chameo:UserCase rdf:type owl:Class .
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySurfaceFreeEnergy1
 :suhySurfaceFreeEnergy1 rdf:type owl:NamedIndividual ,
-                                 <https://w3id.org/emmo/domain/nanoindentation#EMMO_d7a08a6e-b3cb-5d08-b67c-e7618d17ffeb> ;
-                        emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d :suhyDataFiltering1 ,
-                                                                       :suhyDataFiltering2 ;
+                                 :PullOffForceMeasurement ;
+                        emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d :suhyDataFiltering2 ;
                         chameo:hasCharacterisationEnvironment :suhyCharacterisationEnviroment2 ;
                         chameo:hasCharacterisationMeasurementInstrument :suhyNanoindenter2 ;
                         chameo:hasCharacterisationOutput :suhySFELoadDisplacementCurve1 ;
@@ -738,19 +1051,19 @@ chameo:UserCase rdf:type owl:Class .
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyTargetDepth1
 :suhyTargetDepth1 rdf:type owl:NamedIndividual ,
                            <https://w3id.org/emmo/domain/nanoindentation#EMMO_5a0e2d14-1712-419e-85e2-95146e489b98> ;
-                  rdfs:label "Nanoindentation calibration target depth"@en .
+                  rdfs:label "Nanoscratch calibration target depth"@en .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyTargetLoad1
 :suhyTargetLoad1 rdf:type owl:NamedIndividual ,
                           <https://w3id.org/emmo/domain/nanoindentation#EMMO_dd3442d3-3dfa-4be6-be6e-68f0eaed1476> ;
-                 rdfs:label "Nanoindentation calibration target load" .
+                 rdfs:label "Nanoscratch calibration target load" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyTipAreaFunction1
 :suhyTipAreaFunction1 rdf:type owl:NamedIndividual ,
                                <https://w3id.org/emmo/domain/nanoindentation#EMMO_8b35a71c-caf2-49c5-bfcc-18bb33f1a4e0> ;
-                      rdfs:label "Nanoindentation calibration tip area function" .
+                      rdfs:label "Nanoscratch calibration tip area function" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyUserCase1
@@ -770,11 +1083,22 @@ Wear resistance of patterned surfaces combined with high hydrophobicity performa
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#superhydrophobicNanopatternedSurface1
 :superhydrophobicNanopatternedSurface1 rdf:type owl:NamedIndividual ,
-                                                :SuperhydrophobicNanopatternedSurface ;
-                                       emmo:EMMO_fd689787_31b0_41cf_bf03_0d69af76469d :suhySampleHeight1 ,
-                                                                                      :suhySampleThickness1 ,
-                                                                                      :suhySampleWidth1 ;
+                                                :SuperhydrophobicNanopatternedSurfaceSample ;
                                        rdfs:label "Superhydrophobic nanopatterned surface"@en .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :ScratchVelocity
+                :SettleTime
+                :SurfaceTriggerRequired
+                <https://w3id.org/emmo/domain/nanoindentation#EMMO_4977ec05-3708-4e29-8d05-7a11742a2dca>
+                <https://w3id.org/emmo/domain/nanoindentation#EMMO_5399516a-f2ef-525e-92d9-eee82051ec8a>
+              )
+] .
 
 
 ###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
