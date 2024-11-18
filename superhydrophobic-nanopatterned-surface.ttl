@@ -627,6 +627,21 @@ chameo:OutlierRemoval rdf:type owl:Class .
 #    Individuals
 #################################################################
 
+###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#Rationale1
+:Rationale1 rdf:type owl:NamedIndividual ,
+                     chameo:Rationale ;
+            chameo:rationaleHasCharacterisationProcedure :suhyWorkflow1 ;
+            chameo:rationaleHasUserCase :suhyUserCase1 ;
+            rdfs:comment """The characterization of superhydrophobic surfaces intended for optical windows requires a detailed understanding of their structural, adhesive, and mechanical properties to ensure optimal performance and durability.
+
+-    SEM enables precise visualization of the nano-structured surface features, such as cone morphology, size, and distribution. These attributes directly influence the surface's superhydrophobicity and optical properties by affecting light reflection, scattering, and water repellency. High-resolution imaging is critical to verify structural integrity, detect defects, and monitor changes after mechanical stress or exposure.
+-    Nanoindentation for surface-free energy assesses the adhesive properties of the superhydrophobic surface by measuring the force needed to detach a tip. This helps quantify surface interactions, which are crucial for ensuring low wettability and self-cleaning properties essential for maintaining the optical clarity of the windows.
+-    Nanoscratch testing evaluates the mechanical durability and wear resistance of the surface. Since optical windows must withstand environmental exposure and potential mechanical wear, this test identifies damage thresholds and assesses how the surface responds to varying loads. Coupled with SEM, it allows for a thorough failure analysis, linking mechanical stresses to structural and functional changes.
+
+References: https://doi.org/10.1557/s43578-021-00127-3"""@en ;
+            rdfs:label "Rationale for Superhydrophobic Nanopatterned Surfeces characterisation"@en .
+
+
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyCalibration1
 :suhyCalibration1 rdf:type owl:NamedIndividual ,
                            :NanoscratchCalibrationProcess ;
@@ -1070,7 +1085,7 @@ chameo:OutlierRemoval rdf:type owl:Class .
 :suhyUserCase1 rdf:type owl:NamedIndividual ,
                         chameo:UserCase ;
                rdfs:comment "Superhydrophobic surfaces must have low surface free energy and be mechanically resistant."@en ;
-               rdfs:label "Superhydrophobic surfaces performance"@en .
+               rdfs:label "Superhydrophobic surfaces performance user case"@en .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyWorkflow1
