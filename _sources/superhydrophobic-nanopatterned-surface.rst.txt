@@ -1,0 +1,3014 @@
+
+==========
+References
+==========
+
+
+
+Module: Superhydrophobic Nanopatterned Surfaces Testing Ontology
+================================================================
+
+
+
+.. _superhydrophobic-nanopatterned-surfaces-testing-ontology-classes:
+
+Classes
+-------
+
+.. raw:: html
+
+   <div id="AccelerationVoltage"></div>
+
+
+AccelerationVoltage
+^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#AccelerationVoltage">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#AccelerationVoltage</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">AccelerationVoltage</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">AccelerationVoltage</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#SampleInspectionParameter">SampleInspectionParameter</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="AluminumStub"></div>
+
+
+AluminumStub
+^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#AluminumStub">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#AluminumStub</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value"></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value">Aluminum stub used as holder for the superhydrophobic nanopatterned surface sample.</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">AluminumStub</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+    <td class="element-table-value">Aluminum stub used as holder for the superhydrophobic nanopatterned surface sample.</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">AluminumStub</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#Holder">Holder</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="AnnotatedTiffImages"></div>
+
+
+AnnotatedTiffImages
+^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#AnnotatedTiffImages">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#AnnotatedTiffImages</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value"></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">AnnotatedTiffImages</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">AnnotatedTiffImages</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#RawData">RawData</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="BeamCurrent"></div>
+
+
+BeamCurrent
+^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#BeamCurrent">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#BeamCurrent</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">BeamCurrent</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">BeamCurrent</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#SampleInspectionParameter">SampleInspectionParameter</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="SurfaceFreeEnergy"></div>
+   <div id="CalculatedSurfaceFreeEnergy"></div>
+
+CalculatedSurfaceFreeEnergy
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceFreeEnergy">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceFreeEnergy</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value"></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">CalculatedSurfaceFreeEnergy</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">CalculatedSurfaceFreeEnergy</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationProperty">CharacterisationProperty</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#SecondaryData">SecondaryData</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="CleanedAnnotatedTiffImages"></div>
+
+
+CleanedAnnotatedTiffImages
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#CleanedAnnotatedTiffImages">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#CleanedAnnotatedTiffImages</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value"></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">CleanedAnnotatedTiffImages</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">CleanedAnnotatedTiffImages</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#PrimaryData">PrimaryData</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="CleanedLoadDisplacementCurve"></div>
+
+
+CleanedLoadDisplacementCurve
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#CleanedLoadDisplacementCurve">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#CleanedLoadDisplacementCurve</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value"></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">CleanedLoadDisplacementCurve</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">CleanedLoadDisplacementCurve</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#PrimaryData">PrimaryData</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="CompressiveStrenght"></div>
+
+
+CompressiveStrenght
+^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#CompressiveStrenght">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#CompressiveStrenght</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value"></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">CompressiveStrenght</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">CompressiveStrenght</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationProperty">CharacterisationProperty</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#RawData">RawData</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="FrictionCoefficient"></div>
+
+
+FrictionCoefficient
+^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#FrictionCoefficient">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#FrictionCoefficient</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value"></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">FrictionCoefficient</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">FrictionCoefficient</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationProperty">CharacterisationProperty</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#RawData">RawData</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="Helios5X"></div>
+
+
+Helios5X
+^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#Helios5X">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#Helios5X</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value"></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">Helios5X</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">Helios5X</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#SampleInspectionInstrument">SampleInspectionInstrument</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="HotPlate"></div>
+   <div id="None"></div>
+
+HotPlate
+^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#HotPlate">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#HotPlate</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#SamplePreparationInstrument">SamplePreparationInstrument</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="INano"></div>
+
+
+INano
+^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#INano">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#INano</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value"></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">INano</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">INano</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_09591a7a-39f9-550f-8b87-77bb34f4fb2f">Nanoindenter</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="JKR"></div>
+
+
+JKR
+^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#JKR">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#JKR</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#PostProcessingModel">PostProcessingModel</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="KLAG200"></div>
+
+
+KLAG200
+^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#KLAG200">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#KLAG200</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value"></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">KLAG200</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">KLAG200</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_09591a7a-39f9-550f-8b87-77bb34f4fb2f">Nanoindenter</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="LateralForce"></div>
+
+
+LateralForce
+^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#LateralForce">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#LateralForce</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value"></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">LateralForce</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">LateralForce</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#RawData">RawData</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="LoadDisplacementCurve"></div>
+
+
+LoadDisplacementCurve
+^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#LoadDisplacementCurve">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#LoadDisplacementCurve</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value"></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">LoadDisplacementCurve</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">LoadDisplacementCurve</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#RawData">RawData</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="Magnification"></div>
+
+
+Magnification
+^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#Magnification">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#Magnification</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">Magnification</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">Magnification</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#SampleInspectionParameter">SampleInspectionParameter</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="MountingOnAluminumHolder"></div>
+
+
+MountingOnAluminumHolder
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#MountingOnAluminumHolder">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#MountingOnAluminumHolder</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">MountingOnAluminumHolder</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">MountingOnAluminumHolder</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationTask">CharacterisationTask</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#Mounting">Mounting</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasHolder">hasHolder</a> exactly 1 <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#AluminumStub">AluminumStub</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasSampleForPreparation">hasSampleBeforeSamplePreparation</a> exactly 1 <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SuperhydrophobicNanopatternedSurfaceSample">SuperhydrophobicNanopatternedSurfaceSample</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d">hasNext</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceTopologyAnalysis">SurfaceTopologyAnalysis</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="NanoscratchBreakageTesting"></div>
+
+
+NanoscratchBreakageTesting
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#NanoscratchBreakageTesting">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#NanoscratchBreakageTesting</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationTask">CharacterisationTask</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_b3111cf6-107c-4aa6-8f3c-936348906200">NanoindentationMeasurement</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d">hasNext</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceDamagesAnalysis">SurfaceDamagesAnalysis</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationOutput">hasCharacterisationOutput</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#CompressiveStrenght">CompressiveStrenght</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationOutput">hasCharacterisationOutput</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#FrictionCoefficient">FrictionCoefficient</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationOutput">hasCharacterisationOutput</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#LateralForce">LateralForce</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationOutput">hasCharacterisationOutput</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#LoadDisplacementCurve">LoadDisplacementCurve</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasMeasurementParameter">hasMeasurementParameter</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#ScratchDistance">ScratchDistance</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasMeasurementParameter">hasMeasurementParameter</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#ScratchVelocity">ScratchVelocity</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasMeasurementParameter">hasMeasurementParameter</a> some <a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_dd3442d3-3dfa-4be6-be6e-68f0eaed1476">TargetLoad</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasMeasurementSample">hasMeasurementSample</a> exactly 1 <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SuperhydrophobicNanopatternedSurfaceSample">SuperhydrophobicNanopatternedSurfaceSample</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="NanoscratchCalibrationProcess"></div>
+
+
+NanoscratchCalibrationProcess
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#NanoscratchCalibrationProcess">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#NanoscratchCalibrationProcess</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value"></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">NanoscratchCalibrationProcess</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">NanoscratchCalibrationProcess</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CalibrationProcess">CalibrationProcess</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationTask">CharacterisationTask</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasMeasurementParameter">hasMeasurementParameter</a> some <a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_dd3442d3-3dfa-4be6-be6e-68f0eaed1476">TargetLoad</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationOutput">hasCharacterisationOutput</a> some <a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_9400e26c-e8d7-4fe5-a75f-1ed8196c9268">IndenterFrameStiffness</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasMeasurementParameter">hasMeasurementParameter</a> some <a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_5a0e2d14-1712-419e-85e2-95146e489b98">TargetDisplacement</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasMeasurementParameter">hasMeasurementParameter</a> some <a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_da48432d-7f82-4e50-9976-0f57dbfd6cb1">HoldingTime</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasReferenceSample">hasReferenceSample</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#Silica">Silica</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasInstrumentForCalibration">hasInstrumentForCalibration</a> exactly 1 <a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationMeasurementInstrument">CharacterisationMeasurementInstrument</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d">hasNext</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#NanoscratchBreakageTesting">NanoscratchBreakageTesting</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationOutput">hasCharacterisationOutput</a> some <a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_8b35a71c-caf2-49c5-bfcc-18bb33f1a4e0">TipAreaFunction</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="PullOffForceMeasurement"></div>
+
+
+PullOffForceMeasurement
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#PullOffForceMeasurement">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#PullOffForceMeasurement</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationTask">CharacterisationTask</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_d7a08a6e-b3cb-5d08-b67c-e7618d17ffeb">SurfaceFreeEnergyMeasurement</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d">hasNext</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#UnrelevantCurvesRemoval">UnrelevantCurvesRemoval</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationOutput">hasCharacterisationOutput</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#LoadDisplacementCurve">LoadDisplacementCurve</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasMeasurementParameter">hasMeasurementParameter</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SettleTime">SettleTime</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasMeasurementParameter">hasMeasurementParameter</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceTriggerRequired">SurfaceTriggerRequired</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="ScratchDistance"></div>
+
+
+ScratchDistance
+^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#ScratchDistance">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#ScratchDistance</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value"></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">ScratchDistance</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">ScratchDistance</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#MeasurementParameter">MeasurementParameter</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="ScratchVelocity"></div>
+
+
+ScratchVelocity
+^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#ScratchVelocity">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#ScratchVelocity</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value"></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">ScratchVelocity</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">ScratchVelocity</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#MeasurementParameter">MeasurementParameter</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="SettleTime"></div>
+
+
+SettleTime
+^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SettleTime">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SettleTime</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value"></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">SettleTime</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">SettleTime</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#MeasurementParameter">MeasurementParameter</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="Silica"></div>
+
+
+Silica
+^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#Silica">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#Silica</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#ReferenceSample">ReferenceSample</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="SpheroConicalIndenter"></div>
+
+
+SpheroConicalIndenter
+^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SpheroConicalIndenter">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SpheroConicalIndenter</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_a518471c-b749-5c03-bc7e-04f2aba1906e">IndenterTip</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="SuperHydrophobicCharacterisationWorkflow"></div>
+
+
+SuperHydrophobicCharacterisationWorkflow
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SuperHydrophobicCharacterisationWorkflow">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SuperHydrophobicCharacterisationWorkflow</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value">Superhydrophobic surfaces performance assessment: mechanical and surface free energy<br>Wear resistance of patterned surfaces combined with high hydrophobicity performance assessment</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">SuperHydrophobicCharacterisationWorkflow</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">SuperHydrophobicCharacterisationWorkflow</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationWorkflow">CharacterisationWorkflow</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationTask">hasCharacterisationTask</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#MountingOnAluminumHolder">MountingOnAluminumHolder</a> and <a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationTask">hasCharacterisationTask</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#NanoscratchBreakageTesting">NanoscratchBreakageTesting</a> and <a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationTask">hasCharacterisationTask</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#NanoscratchCalibrationProcess">NanoscratchCalibrationProcess</a> and <a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationTask">hasCharacterisationTask</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#PullOffForceMeasurement">PullOffForceMeasurement</a> and <a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationTask">hasCharacterisationTask</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceDamagesAnalysis">SurfaceDamagesAnalysis</a> and <a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationTask">hasCharacterisationTask</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceFreeEnergyCalculation">SurfaceFreeEnergyCalculation</a> and <a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationTask">hasCharacterisationTask</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceTopologyAnalysis">SurfaceTopologyAnalysis</a> and <a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationTask">hasCharacterisationTask</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#TargetLoadOptimisation">TargetLoadOptimisation</a> and <a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationTask">hasCharacterisationTask</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#UnrelevantCurvesRemoval">UnrelevantCurvesRemoval</a> and <a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationTask">hasCharacterisationTask</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#UnrelevantScratchesRemoval">UnrelevantScratchesRemoval</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="SuperhydrophobicNanopatternedSurfaceSample"></div>
+
+
+SuperhydrophobicNanopatternedSurfaceSample
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SuperhydrophobicNanopatternedSurfaceSample">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SuperhydrophobicNanopatternedSurfaceSample</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value"></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value">Superhydrophobic nanopatterned surface</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">SuperhydrophobicNanopatternedSurfaceSample</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+    <td class="element-table-value">Superhydrophobic nanopatterned surface</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">SuperhydrophobicNanopatternedSurfaceSample</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#Sample">Sample</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="SuperhydrophobicSurfacesPerformanceUserCase"></div>
+
+
+SuperhydrophobicSurfacesPerformanceUserCase
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SuperhydrophobicSurfacesPerformanceUserCase">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SuperhydrophobicSurfacesPerformanceUserCase</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value">Superhydrophobic surfaces must have low surface free energy and be mechanically resistant.</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">SuperhydrophobicSurfacesPerformanceUserCase</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+    <td class="element-table-value">Superhydrophobic surfaces must have low surface free energy and be mechanically resistant.</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">SuperhydrophobicSurfacesPerformanceUserCase</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#UserCase">UserCase</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="SurfaceDamagesAnalysis"></div>
+
+
+SurfaceDamagesAnalysis
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceDamagesAnalysis">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceDamagesAnalysis</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationTask">CharacterisationTask</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#SampleInspection">SampleInspection</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#ScanningElectronMicroscopy">ScanningElectronMicroscopy</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d">hasNext</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#UnrelevantScratchesRemoval">UnrelevantScratchesRemoval</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationOutput">hasCharacterisationOutput</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#AnnotatedTiffImages">AnnotatedTiffImages</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasSampleInspectionParameter">hasSampleInspectionParameter</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#AccelerationVoltage">AccelerationVoltage</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasSampleInspectionParameter">hasSampleInspectionParameter</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#BeamCurrent">BeamCurrent</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasSampleInspectionParameter">hasSampleInspectionParameter</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#Magnification">Magnification</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="SurfaceFreeEnergyCalculation"></div>
+
+
+SurfaceFreeEnergyCalculation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceFreeEnergyCalculation">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceFreeEnergyCalculation</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationTask">CharacterisationTask</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#DataPostProcessing">DataPostProcessing</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo#EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840">hasOutput</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceFreeEnergy">CalculatedSurfaceFreeEnergy</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasPostProcessingModel">hasPostProcessingModel</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#JKR">JKR</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo#EMMO_36e69413_8c59_4799_946c_10b05d266e22">hasInput</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#CleanedLoadDisplacementCurve">CleanedLoadDisplacementCurve</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="SurfaceTopologyAnalysis"></div>
+
+
+SurfaceTopologyAnalysis
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceTopologyAnalysis">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceTopologyAnalysis</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value"></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">SurfaceTopologyAnalysis</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">SurfaceTopologyAnalysis</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationTask">CharacterisationTask</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#SampleInspection">SampleInspection</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#ScanningElectronMicroscopy">ScanningElectronMicroscopy</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasSampleInspectionParameter">hasSampleInspectionParameter</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#Magnification">Magnification</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasSampleInspectionParameter">hasSampleInspectionParameter</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#AccelerationVoltage">AccelerationVoltage</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasSampleInspectionParameter">hasSampleInspectionParameter</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#BeamCurrent">BeamCurrent</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d">hasNext</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#NanoscratchBreakageTesting">NanoscratchBreakageTesting</a> and <a href="https://w3id.org/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d">hasNext</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#PullOffForceMeasurement">PullOffForceMeasurement</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasSampleForInspection">hasSampleForInspection</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SuperhydrophobicNanopatternedSurfaceSample">SuperhydrophobicNanopatternedSurfaceSample</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="SurfaceTriggerRequired"></div>
+
+
+SurfaceTriggerRequired
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceTriggerRequired">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceTriggerRequired</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+    <td class="element-table-value"></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
+    <td class="element-table-value">SurfaceTriggerRequired</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Label</span></td>
+    <td class="element-table-value">SurfaceTriggerRequired</td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#MeasurementParameter">MeasurementParameter</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="TargetLoadOptimisation"></div>
+
+
+TargetLoadOptimisation
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#TargetLoadOptimisation">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#TargetLoadOptimisation</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationTask">CharacterisationTask</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#MeasurementSystemAdjustment">MeasurementSystemAdjustment</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d">hasNext</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#NanoscratchBreakageTesting">NanoscratchBreakageTesting</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo#EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840">hasOutput</a> some <a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_dd3442d3-3dfa-4be6-be6e-68f0eaed1476">TargetLoad</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="UnrelevantCurvesRemoval"></div>
+
+
+UnrelevantCurvesRemoval
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#UnrelevantCurvesRemoval">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#UnrelevantCurvesRemoval</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationTask">CharacterisationTask</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#OutlierRemoval">OutlierRemoval</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d">hasNext</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceFreeEnergyCalculation">SurfaceFreeEnergyCalculation</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo#EMMO_36e69413_8c59_4799_946c_10b05d266e22">hasInput</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#LoadDisplacementCurve">LoadDisplacementCurve</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo#EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840">hasOutput</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#CleanedLoadDisplacementCurve">CleanedLoadDisplacementCurve</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="UnrelevantScratchesRemoval"></div>
+
+
+UnrelevantScratchesRemoval
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#UnrelevantScratchesRemoval">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#UnrelevantScratchesRemoval</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-annotations" colspan="2">Annotations</th>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationTask">CharacterisationTask</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#OutlierRemoval">OutlierRemoval</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo#EMMO_36e69413_8c59_4799_946c_10b05d266e22">hasInput</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#AnnotatedTiffImages">AnnotatedTiffImages</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo#EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840">hasOutput</a> some <a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#CleanedAnnotatedTiffImages">CleanedAnnotatedTiffImages</a></td>
+  </tr>
+  </table>
+
+
+.. _superhydrophobic-nanopatterned-surfaces-testing-ontology-individuals:
+
+Individuals
+-----------
+
+.. raw:: html
+
+   <div id="suhyCharacterisationEnviroment2"></div>
+
+
+AIR-RT-RH5
+^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyCharacterisationEnviroment2">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyCharacterisationEnviroment2</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationEnvironment">CharacterisationEnvironment</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhySampleInspectionParameter2"></div>
+
+
+Acceleration voltage = 2kV
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleInspectionParameter2">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleInspectionParameter2</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#AccelerationVoltage">AccelerationVoltage</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyCharacterisationEnvironment1"></div>
+
+
+Air-RT
+^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyCharacterisationEnvironment1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyCharacterisationEnvironment1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationEnvironment">CharacterisationEnvironment</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyHolder1"></div>
+
+
+Aluminum stub
+^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyHolder1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyHolder1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#Holder">Holder</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyRawData1"></div>
+
+
+Annotated TIFF images1
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyRawData1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyRawData1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#AnnotatedTiffImages">AnnotatedTiffImages</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyRawData2"></div>
+
+
+Annotated TIFF images2
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyRawData2">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyRawData2</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#AnnotatedTiffImages">AnnotatedTiffImages</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhySampleInspectionParameter3"></div>
+
+
+Beam current = 0.34nA
+^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleInspectionParameter3">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleInspectionParameter3</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#BeamCurrent">BeamCurrent</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhySecondaryData1"></div>
+
+
+Calculated Surface Free Energy
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySecondaryData1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySecondaryData1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceFreeEnergy">CalculatedSurfaceFreeEnergy</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyPrimaryData1"></div>
+
+
+Cleaned annotated TIFF images1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyPrimaryData1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyPrimaryData1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#CleanedAnnotatedTiffImages">CleanedAnnotatedTiffImages</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhySFELoadDisplacementCurve2"></div>
+
+
+Cleaned surface free energy load-displacement curves
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySFELoadDisplacementCurve2">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySFELoadDisplacementCurve2</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#CleanedLoadDisplacementCurve">CleanedLoadDisplacementCurve</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhySignal1"></div>
+
+
+Electrical current in a coil
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySignal1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySignal1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#Signal">Signal</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyDetector1"></div>
+
+
+Force detector
+^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyDetector1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyDetector1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_ca811644-f6da-5c3a-8474-824bf0c3520f">ForceDetector</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhySampleInspectionInstrument1"></div>
+
+
+Helios 5CX
+^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleInspectionInstrument1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleInspectionInstrument1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#Helios5X">Helios5X</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyLOEMediumHigh2"></div>
+
+
+High
+^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyLOEMediumHigh2">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyLOEMediumHigh2</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#LevelOfExpertise">LevelOfExpertise</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhySamplePreparationInstrument1"></div>
+
+
+Hot plate
+^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySamplePreparationInstrument1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySamplePreparationInstrument1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#HotPlate">HotPlate</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyPostProcessingModel1"></div>
+
+
+JKR Model
+^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyPostProcessingModel1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyPostProcessingModel1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#JKR">JKR</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyNanoindenter1"></div>
+
+
+KLA G200
+^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyNanoindenter1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyNanoindenter1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_09591a7a-39f9-550f-8b87-77bb34f4fb2f">Nanoindenter</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhySampleInspectionParameter1"></div>
+
+
+Magnification 5000x, 10000x
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleInspectionParameter1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySampleInspectionParameter1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#Magnification">Magnification</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#SampleInspectionParameter">SampleInspectionParameter</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhySoftware1"></div>
+
+
+Mathlab
+^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySoftware1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySoftware1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationSoftware">CharacterisationSoftware</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyMeasurementTime2"></div>
+
+
+Measurement time = 120s
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMeasurementTime2">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMeasurementTime2</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_0554da63-0423-5ca5-a176-9dd07ef32fb8">MeasurementTime</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyLOEMediumHigh1"></div>
+
+
+Medium/High
+^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyLOEMediumHigh1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyLOEMediumHigh1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#LevelOfExpertise">LevelOfExpertise</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyMountingOnHolder1"></div>
+
+
+Mounting on holder
+^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMountingOnHolder1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMountingOnHolder1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#MountingOnAluminumHolder">MountingOnAluminumHolder</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyNanoscratch1"></div>
+
+
+Nanoscratch
+^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyNanoscratch1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyNanoscratch1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#NanoscratchBreakageTesting">NanoscratchBreakageTesting</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyCalibration1"></div>
+
+
+Nanoscratch calibration
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyCalibration1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyCalibration1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#NanoscratchCalibrationProcess">NanoscratchCalibrationProcess</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyFrameStiffness1"></div>
+
+
+Nanoscratch calibration frame stiffness
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyFrameStiffness1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyFrameStiffness1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_9400e26c-e8d7-4fe5-a75f-1ed8196c9268">IndenterFrameStiffness</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyHoldingTime1"></div>
+
+
+Nanoscratch calibration holding time
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyHoldingTime1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyHoldingTime1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_da48432d-7f82-4e50-9976-0f57dbfd6cb1">HoldingTime</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyTargetDepth1"></div>
+
+
+Nanoscratch calibration target depth
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyTargetDepth1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyTargetDepth1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_5a0e2d14-1712-419e-85e2-95146e489b98">TargetDisplacement</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyTargetLoad1"></div>
+
+
+Nanoscratch calibration target load
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyTargetLoad1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyTargetLoad1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_dd3442d3-3dfa-4be6-be6e-68f0eaed1476">TargetLoad</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyTipAreaFunction1"></div>
+
+
+Nanoscratch calibration tip area function
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyTipAreaFunction1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyTipAreaFunction1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_8b35a71c-caf2-49c5-bfcc-18bb33f1a4e0">TipAreaFunction</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyNanoscratchOutput4"></div>
+
+
+Nanoscratch compressive strenght
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyNanoscratchOutput4">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyNanoscratchOutput4</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#CompressiveStrenght">CompressiveStrenght</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyNanoscratchOutput3"></div>
+
+
+Nanoscratch friction coefficient
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyNanoscratchOutput3">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyNanoscratchOutput3</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#FrictionCoefficient">FrictionCoefficient</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyNanoscratchOutput2"></div>
+
+
+Nanoscratch lateral force
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyNanoscratchOutput2">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyNanoscratchOutput2</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#LateralForce">LateralForce</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyNanoscratchOutput1"></div>
+
+
+Nanoscratch load-displacement curve
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyNanoscratchOutput1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyNanoscratchOutput1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#LoadDisplacementCurve">LoadDisplacementCurve</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyMeasurementTime1"></div>
+
+
+Nanoscratch measurement time
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMeasurementTime1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMeasurementTime1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_0554da63-0423-5ca5-a176-9dd07ef32fb8">MeasurementTime</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyDataFiltering1"></div>
+
+
+Outlayer removal1
+^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyDataFiltering1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyDataFiltering1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#UnrelevantScratchesRemoval">UnrelevantScratchesRemoval</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyDataFiltering2"></div>
+
+
+Outlayer removal2
+^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyDataFiltering2">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyDataFiltering2</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#UnrelevantCurvesRemoval">UnrelevantCurvesRemoval</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyProbeSampleInteraction"></div>
+
+
+Probe-Sample interaction
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyProbeSampleInteraction">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyProbeSampleInteraction</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#ProbeSampleInteraction">ProbeSampleInteraction</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyCharacterisationEnvironmentProperty2"></div>
+
+
+RH%<5
+^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyCharacterisationEnvironmentProperty2">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyCharacterisationEnvironmentProperty2</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationEnvironmentProperty">CharacterisationEnvironmentProperty</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="Rationale1"></div>
+
+
+Rationale for Superhydrophobic Nanopatterned Surfeces characterisation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#Rationale1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#Rationale1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#Rationale">Rationale</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyLoadDisplacementCurve1"></div>
+
+
+SFE load-displacement curve
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyLoadDisplacementCurve1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyLoadDisplacementCurve1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="http://www.w3.org/2002/07/owl#Thing">Thing</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyOperator1"></div>
+
+
+Saqib Rashid
+^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyOperator1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyOperator1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#Operator">Operator</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhySEM1"></div>
+
+
+Scanning Electron Microscopy1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySEM1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySEM1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceTopologyAnalysis">SurfaceTopologyAnalysis</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhySEM2"></div>
+
+
+Scanning Electron Microscopy2
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySEM2">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySEM2</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceDamagesAnalysis">SurfaceDamagesAnalysis</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyScratchDistance1"></div>
+
+
+Scratch distance = 500um
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyScratchDistance1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyScratchDistance1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#ScratchDistance">ScratchDistance</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyScratchVelocity1"></div>
+
+
+Scratch velocity = 10um/s
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyScratchVelocity1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyScratchVelocity1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#ScratchVelocity">ScratchVelocity</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyMeasurementParameter4"></div>
+
+
+Settle time = 30s
+^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMeasurementParameter4">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMeasurementParameter4</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SettleTime">SettleTime</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyReferenceSample1"></div>
+
+
+Silica
+^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyReferenceSample1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyReferenceSample1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#ReferenceSample">ReferenceSample</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyProbe1"></div>
+
+
+Spheroconical indenter
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyProbe1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyProbe1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SpheroConicalIndenter">SpheroConicalIndenter</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="superhydrophobicNanopatternedSurface1"></div>
+
+
+Superhydrophobic nanopatterned surface
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#superhydrophobicNanopatternedSurface1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#superhydrophobicNanopatternedSurface1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SuperhydrophobicNanopatternedSurfaceSample">SuperhydrophobicNanopatternedSurfaceSample</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyWorkflow1"></div>
+
+
+Superhydrophobic surfaces performance assessment
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyWorkflow1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyWorkflow1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SuperHydrophobicCharacterisationWorkflow">SuperHydrophobicCharacterisationWorkflow</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyUserCase1"></div>
+
+
+Superhydrophobic surfaces performance user case
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyUserCase1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyUserCase1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#UserCase">UserCase</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhySurfaceFreeEnergy1"></div>
+
+
+Surface free energy
+^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySurfaceFreeEnergy1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySurfaceFreeEnergy1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#PullOffForceMeasurement">PullOffForceMeasurement</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyDataPostProcessing1"></div>
+
+
+Surface free energy calculation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyDataPostProcessing1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyDataPostProcessing1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceFreeEnergyCalculation">SurfaceFreeEnergyCalculation</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhySFELoadDisplacementCurve1"></div>
+
+
+Surface free energy load displacement curve
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySFELoadDisplacementCurve1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhySFELoadDisplacementCurve1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#RawData">RawData</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyMearurementParameter3"></div>
+
+
+Surface trigger required = 2000
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMearurementParameter3">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMearurementParameter3</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#SurfaceTriggerRequired">SurfaceTriggerRequired</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyOptimisedTargetLoad1"></div>
+
+
+Target load = 100-200mN
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyOptimisedTargetLoad1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyOptimisedTargetLoad1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#MeasurementParameter">MeasurementParameter</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_dd3442d3-3dfa-4be6-be6e-68f0eaed1476">TargetLoad</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyMeasurementParameterAdjustment1"></div>
+
+
+Target load optimisation
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMeasurementParameterAdjustment1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMeasurementParameterAdjustment1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#TargetLoadOptimisation">TargetLoadOptimisation</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#MeasurementSystemAdjustment">MeasurementSystemAdjustment</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyCharacterisationEnvironmentProperty1"></div>
+
+
+Temperature = RT
+^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyCharacterisationEnvironmentProperty1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyCharacterisationEnvironmentProperty1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationEnvironmentProperty">CharacterisationEnvironmentProperty</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyMountingOnHolderTemperature1"></div>
+
+
+Temperature = ~100°
+^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMountingOnHolderTemperature1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyMountingOnHolderTemperature1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#SamplePreparationParameter">SamplePreparationParameter</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyLab1"></div>
+
+
+Università degli Studi Roma Tre
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyLab1">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyLab1</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/characterisation-methodology/chameo#Laboratory">Laboratory</a></td>
+  </tr>
+  </table>
+
+.. raw:: html
+
+   <div id="suhyNanoindenter2"></div>
+
+
+iNANO
+^^^^^
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iri</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyNanoindenter2">https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyNanoindenter2</a></td>
+  </tr>
+  <tr>
+    <th class="element-table-formal-description" colspan="2">Formal description</th>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Subclass Of</span></td>
+    <td class="element-table-value"><a href="https://w3id.org/emmo/domain/nanoindentation#EMMO_09591a7a-39f9-550f-8b87-77bb34f4fb2f">Nanoindenter</a></td>
+  </tr>
+  </table>
