@@ -60,15 +60,19 @@ jobs:
             --base-iri="https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#" \
             --iri=https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface \
             superhydrophobic-nanopatterned-surface.ttl public/superhydrophobic-nanopatterned-surface.ttl
-          bin/robot reason --reasoner ELK --input public/superhydrophobic-nanopatterned-surface.ttl --output public/superhydrophobic-nanopatterned-surface-inferred.ttl
+          #bin/robot reason --reasoner ELK --input public/superhydrophobic-nanopatterned-surface.ttl --output public/superhydrophobic-nanopatterned-surface-inferred.ttl
           ontoconvert public/superhydrophobic-nanopatterned-surface.ttl public/superhydrophobic-nanopatterned-surface.owl
-          ontoconvert public/superhydrophobic-nanopatterned-surface-inferred.ttl public/superhydrophobic-nanopatterned-surface-inferred.owl
+          #ontoconvert public/superhydrophobic-nanopatterned-surface-inferred.ttl public/superhydrophobic-nanopatterned-surface-inferred.owl
 
       - name: Generate html documentation
         run: |
+          #ontodoc \
+          #  --iri-regex=https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface \
+          #  public/superhydrophobic-nanopatterned-surface-inferred.ttl \
+          #  build/superhydrophobic-nanopatterned-surface.rst
           ontodoc \
             --iri-regex=https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface \
-            public/superhydrophobic-nanopatterned-surface-inferred.ttl \
+            public/superhydrophobic-nanopatterned-surface.ttl \
             build/superhydrophobic-nanopatterned-surface.rst
           cp README.md build/
           sphinx-build "build/" "public/"
