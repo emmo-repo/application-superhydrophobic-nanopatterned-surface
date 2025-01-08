@@ -7,7 +7,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
-@base <https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#> .
+@base <https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface> .
 
 <https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface> rdf:type owl:Ontology ;
                                                                             owl:imports <https://w3id.org/emmo/domain/nanoindentation> ;
@@ -37,9 +37,9 @@
                                                                             owl:backwardCompatibleWith "" ;
                                                                             owl:priorVersion "" ;
                                                                             owl:versionInfo "0.1.0" ;
-                                                                            skos:hiddenLabel "Suhy" ;
-                                                                            <http://xmlns.com/foaf/0.1/homepage> <https://github.com/emmo-repo/application-superhydrophobic> ;
-                                                                            <http://xmlns.com/foaf/0.1/page> <https://github.com/emmo-repo/application-superhydrophobic> .
+                                                                            skos:hiddenLabel "Superhydrophobic Nanopatterned Surfaces testing ontology" ;
+                                                                            <http://xmlns.com/foaf/0.1/homepage> <https://github.com/emmo-repo/application-superhydrophobic-nanopatterned-surface> ;
+                                                                            <http://xmlns.com/foaf/0.1/page> <https://github.com/emmo-repo/application-superhydrophobic-nanopatterned-surface> .
 
 #################################################################
 #    Annotation properties
