@@ -3,33 +3,38 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix emmo: <https://w3id.org/emmo#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
-@base <https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix datacite: <http://purl.org/spar/datacite/> .
+@base <https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#> .
 
 <https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface> rdf:type owl:Ontology ;
                                                                             owl:imports <https://w3id.org/emmo/domain/nanoindentation> ;
-                                                                            <http://purl.org/dc/terms/abstract> "Application ontology for Superhydrophobic Nanopatterned Surfaces testing developed within the NanoMECommons project."@en ;
-                                                                            <http://purl.org/dc/terms/alternative> "Suhy" ;
-                                                                            <http://purl.org/dc/terms/bibliographicCitation> "Work under review - not available yet" ;
-                                                                            <http://purl.org/dc/terms/contributor> "Goldbeck Consulting Ltd (UK)" ;
-                                                                            <http://purl.org/dc/terms/created> "2024-11-12" ;
-                                                                            <http://purl.org/dc/terms/creator> "Gerhard Goldbeck" ,
-                                                                                                               "Pierluigi Del Nostro" ;
-                                                                            <http://purl.org/dc/terms/description> "Superhydrophobic Nanopatterned Surfaces testing ontology"@en ;
-                                                                            <http://purl.org/dc/terms/hasFormat> <https://www.w3.org/TR/turtle/> ;
-                                                                            <http://purl.org/dc/terms/identifier> "https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface" ;
-                                                                            <http://purl.org/dc/terms/issued> "" ;
-                                                                            <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/legalcode" ;
-                                                                            <http://purl.org/dc/terms/modified> "2023-10-23T15:00:00Z" ;
-                                                                            <http://purl.org/dc/terms/publisher> "EMMC ASBL" ;
-                                                                            <http://purl.org/dc/terms/source> "" ;
-                                                                            <http://purl.org/dc/terms/title> "Superhydrophobic Nanopatterned Surfaces testing ontology"@en ;
-                                                                            <http://purl.org/ontology/bibo/doi> "" ;
-                                                                            <http://purl.org/vocab/vann/preferredNamespacePrefix> "suhy"@en ;
-                                                                            <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface" ;
+                                                                            dcterms:abstract "Application ontology for Superhydrophobic Nanopatterned Surfaces testing developed within the NanoMECommons project."@en ;
+                                                                            dcterms:alternative "Suhy" ;
+                                                                            dcterms:bibliographicCitation "Work under review - not available yet" ;
+                                                                            dcterms:contributor "Goldbeck Consulting Ltd (UK)" ;
+                                                                            dcterms:created "2024-11-12" ;
+                                                                            dcterms:creator "Gerhard Goldbeck" ,
+                                                                                            "Pierluigi Del Nostro" ;
+                                                                            dcterms:description "Superhydrophobic Nanopatterned Surfaces testing ontology"@en ;
+                                                                            dcterms:hasFormat <https://www.w3.org/TR/turtle/> ;
+                                                                            dcterms:identifier "https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface" ;
+                                                                            dcterms:issued "" ;
+                                                                            dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
+                                                                            dcterms:modified "2023-10-23T15:00:00Z" ;
+                                                                            dcterms:publisher "EMMC ASBL" ;
+                                                                            dcterms:source "" ;
+                                                                            dcterms:title "Superhydrophobic Nanopatterned Surfaces testing ontology"@en ;
+                                                                            bibo:doi "" ;
+                                                                            vann:preferredNamespacePrefix "suhy"@en ;
+                                                                            vann:preferredNamespaceUri "https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface" ;
                                                                             rdfs:comment """Contacts:
 													Gerhard Goldbeck
 													Goldbeck Consulting Ltd (UK)
@@ -38,83 +43,83 @@
                                                                             owl:priorVersion "" ;
                                                                             owl:versionInfo "0.1.0" ;
                                                                             skos:hiddenLabel "Superhydrophobic Nanopatterned Surfaces testing ontology" ;
-                                                                            <http://xmlns.com/foaf/0.1/homepage> <https://github.com/emmo-repo/application-superhydrophobic-nanopatterned-surface> ;
-                                                                            <http://xmlns.com/foaf/0.1/page> <https://github.com/emmo-repo/application-superhydrophobic-nanopatterned-surface> .
+                                                                            foaf:homepage <https://github.com/emmo-repo/application-superhydrophobic-nanopatterned-surface> ;
+                                                                            foaf:page <https://github.com/emmo-repo/application-superhydrophobic-nanopatterned-surface> .
 
 #################################################################
 #    Annotation properties
 #################################################################
 
 ###  http://purl.org/dc/terms/abstract
-<http://purl.org/dc/terms/abstract> rdf:type owl:AnnotationProperty .
+dcterms:abstract rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/alternative
-<http://purl.org/dc/terms/alternative> rdf:type owl:AnnotationProperty .
+dcterms:alternative rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/bibliographicCitation
-<http://purl.org/dc/terms/bibliographicCitation> rdf:type owl:AnnotationProperty .
+dcterms:bibliographicCitation rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/contributor
-<http://purl.org/dc/terms/contributor> rdf:type owl:AnnotationProperty .
+dcterms:contributor rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/created
-<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
+dcterms:created rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/creator
-<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+dcterms:creator rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/description
-<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+dcterms:description rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/hasFormat
-<http://purl.org/dc/terms/hasFormat> rdf:type owl:AnnotationProperty .
+dcterms:hasFormat rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/identifier
-<http://purl.org/dc/terms/identifier> rdf:type owl:AnnotationProperty .
+dcterms:identifier rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/issued
-<http://purl.org/dc/terms/issued> rdf:type owl:AnnotationProperty .
+dcterms:issued rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/license
-<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+dcterms:license rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/modified
-<http://purl.org/dc/terms/modified> rdf:type owl:AnnotationProperty .
+dcterms:modified rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/publisher
-<http://purl.org/dc/terms/publisher> rdf:type owl:AnnotationProperty .
+dcterms:publisher rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/source
-<http://purl.org/dc/terms/source> rdf:type owl:AnnotationProperty .
+dcterms:source rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/title
-<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+dcterms:title rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/ontology/bibo/doi
-<http://purl.org/ontology/bibo/doi> rdf:type owl:AnnotationProperty .
+bibo:doi rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/vocab/vann/preferredNamespacePrefix
-<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+vann:preferredNamespacePrefix rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/vocab/vann/preferredNamespaceUri
-<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+vann:preferredNamespaceUri rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2004/02/skos/core#altLabel
@@ -130,15 +135,15 @@ skos:prefLabel rdf:type owl:AnnotationProperty .
 
 
 ###  http://xmlns.com/foaf/0.1/homepage
-<http://xmlns.com/foaf/0.1/homepage> rdf:type owl:AnnotationProperty .
+foaf:homepage rdf:type owl:AnnotationProperty .
 
 
 ###  http://xmlns.com/foaf/0.1/name
-<http://xmlns.com/foaf/0.1/name> rdf:type owl:AnnotationProperty .
+foaf:name rdf:type owl:AnnotationProperty .
 
 
 ###  http://xmlns.com/foaf/0.1/page
-<http://xmlns.com/foaf/0.1/page> rdf:type owl:AnnotationProperty .
+foaf:page rdf:type owl:AnnotationProperty .
 
 
 #################################################################
@@ -415,7 +420,7 @@ skos:prefLabel rdf:type owl:AnnotationProperty .
 :SuperHydrophobicCharacterisationWorkflow rdf:type owl:Class ;
                                           rdfs:subClassOf chameo:CharacterisationWorkflow ,
                                                           [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                   owl:onProperty chameo:hasBeginCharacterisationTask ;
                                                                                    owl:someValuesFrom :MountingOnAluminumHolder
                                                                                  ]
                                                                                  [ rdf:type owl:Restriction ;
@@ -436,10 +441,6 @@ skos:prefLabel rdf:type owl:AnnotationProperty .
                                                                                  ]
                                                                                  [ rdf:type owl:Restriction ;
                                                                                    owl:onProperty chameo:hasCharacterisationTask ;
-                                                                                   owl:someValuesFrom :SurfaceFreeEnergyCalculation
-                                                                                 ]
-                                                                                 [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty chameo:hasCharacterisationTask ;
                                                                                    owl:someValuesFrom :SurfaceTopologyAnalysis
                                                                                  ]
                                                                                  [ rdf:type owl:Restriction ;
@@ -453,6 +454,10 @@ skos:prefLabel rdf:type owl:AnnotationProperty .
                                                                                  [ rdf:type owl:Restriction ;
                                                                                    owl:onProperty chameo:hasCharacterisationTask ;
                                                                                    owl:someValuesFrom :UnrelevantScratchesRemoval
+                                                                                 ]
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty chameo:hasEndCharacterisationTask ;
+                                                                                   owl:someValuesFrom :SurfaceFreeEnergyCalculation
                                                                                  ]
                                                                                ) ;
                                                             rdf:type owl:Class
@@ -887,7 +892,7 @@ References: https://doi.org/10.1557/s43578-021-00127-3"""@en ;
                         chameo:Operator ;
                rdfs:comment "Operator for the whole characterisation process" ;
                rdfs:label "Saqib Rashid" ;
-               <http://xmlns.com/foaf/0.1/name> "Saqib Rashid" .
+               foaf:name "Saqib Rashid" .
 
 
 ###  https://w3id.org/emmo/application/superhydrophobic-nanopatterned-surface#suhyOptimisedTargetLoad1
